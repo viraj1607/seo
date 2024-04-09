@@ -1,0 +1,24 @@
+.about-bg {
+    background: url("../imgs/bg2.jpg"), rgba(255, 0, 150, 0.3);
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.div-info {
+    padding: 50px;
+}
+
+.div-about {
+    padding: 50px;
+    background-color: rgb(232 238 244);
+}
+
+@media screen and (max-width:600px) {
+    .about-bg {
+        background-size: cover;
+        background-position: right center;
+    }
+}

@@ -1,0 +1,33 @@
+.footer-container{
+    background-color: black;
+    padding: 50px;
+}
+
+.footer-container-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon{
+    color: white;
+    font-size: 30px !important;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.footer-container-flex ul{
+    color: white;
+    list-style: none;
+}
+
+
+@media screen and (max-width:600px) {
+    .footer-container-flex{
+        flex-direction: column;
+    }
+
+    .footer-container-flex ul{
+        padding-left: 0px;
+    }
+    
+}

@@ -1,0 +1,8 @@
+.blogs-container {
+    padding: 50px;
+    background-color: rgb(232 238 244);
+}
+
+.blogs-container h4{
+    text-align: left;
+}
